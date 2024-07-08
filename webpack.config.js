@@ -1,6 +1,7 @@
 const path = require('path'); // CommonJS
 
 module.exports = {
+  base: '/PJcurso_Agenda_express',
   mode: 'production',
   entry: './frontend/main.js',
   output: {
